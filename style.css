@@ -1,9 +1,7 @@
-.container {
-    display: flexbox;
+#container {
+    display:flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color:antiquewhite;
-};
-
-div {
-    background-color: blue;
-    style
 };
