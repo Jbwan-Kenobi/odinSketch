@@ -1,7 +1,19 @@
 #container {
-    display:flex;
-    text-align: center;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color:antiquewhite;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.blocks {
+    aspect-ratio: 1 / 1;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border: 1px solid black;
+    box-sizing: border-box;
 };
